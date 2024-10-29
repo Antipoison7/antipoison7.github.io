@@ -5,10 +5,13 @@
             <meta name="author" content="Connor 'Antipoison' Orders">
             <meta name="description" content="Landing page for the Antipoison, Connor Orders websites">
             <meta charset="UTF-8">
+            <link href="./Resources/Style/stylesheet.css" rel="stylesheet">
         </head>
 
         <body>
-            <h1>Antipoison's Site Portal</h1>
+            <div id="particles-js">
+                <h1>Antipoison's Site Portal</h1>
+            </div>
 
             <h2>Food Waste | Programming Studio 1 | <a href="https://github.com/Noah-Bakr/Programming-Studio-1-Project">Github</a> | 22/04/2024 - 28/06/2024</h2>
             <h2>Ultrakill Times Page | <a href="https://github.com/Antipoison7/ultrakill">Github</a> | 22/07/2024 - 21/08/2024</h2>
@@ -19,3 +22,13 @@
             <h2><a href="https://tetr.io/#R:bcd7b45c36fd">Event Organizer | Web Programming Studio 1</a> | <a href="https://github.com/rmit-computing-technologies/web-studio-project-group_01_wps_2024">Github (Private)</a> | 09/09/2024 - Now</h2>
         </body>
     </html>
+
+    <script src=" https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'Resources/Script/particlesjs-config.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+
+
+    </script>
